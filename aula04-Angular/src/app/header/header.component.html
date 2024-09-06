@@ -3,6 +3,13 @@
     <span>{{this.titulosite}}</span>
   </div>
   <div class="titulo-site d-flex align-items-center col-sm justify-content-end">
-    <img class="menu-usuario" src="assets/person-circle-outline.svg">
+    <a (click)="this.menuusuario = !this.menuusuario">
+      <img class="icone-usuario" src="assets/person-circle-outline.svg">
+    </a>
+  </div>
+  <div *ngIf="this.menuusuario" class="list-group menu-usuario">
+    <li class="list-group-item disabled">MENU</li>
+    <a href="#" class="list-group-item list-group-action item-clicavel">Admin</a>
+    <a href="#" class="list-group-item list-group-action item-clicavel">Logout</a>
   </div>
 </div>
