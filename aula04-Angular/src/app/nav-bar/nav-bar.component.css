@@ -1,0 +1,10 @@
+.menu-expansivel {
+  position: fixed;
+  width: 256px;
+}
+
+.menu-background {
+  width: 100%;
+  height: 55.6px;
+  background-color: white;
+}
