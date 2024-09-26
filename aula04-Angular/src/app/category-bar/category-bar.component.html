@@ -1,5 +1,10 @@
 <ul class="b-list-group b-listgroup-horizontal">
-  <li >An item</li>
-  <li >A second item</li>
-  <li >A third item</li>
+  <li *ngFor="let category of categories">
+    <div>
+      <img src="{{category.image}}" alt="user-image">
+    </div>
+    <div>
+      <span>{{category.title}}</span>
+    </div>
+  </li>
 </ul>
