@@ -1,1 +1,10 @@
-<p>courses works!</p>
+<ul class="list-group list-group-horizontal category-bar">
+  <li *ngFor="let course of courses" class="card_item">
+    <div class="card_img">
+      <img src="{{course.image}}" alt="user-image">
+    </div>
+    <div class="card_info text-center">
+      <span>{{course.title}}</span>
+    </div>
+  </li>
+</ul>
