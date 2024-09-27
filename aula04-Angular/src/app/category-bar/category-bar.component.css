@@ -1,5 +1,10 @@
 .category-bar {
-  margin-top: 60px;
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(174, 188, 187);
+  width: 100%;
+  padding-top: 65px;
 }
 
 .card_img {
